@@ -1,0 +1,909 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="red">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Nvonchi Car Location – Location de voitures premium à Yaoundé, nouvelle route Bastos. Fiables, modernes, 7j/7." />
+  <title>Nvonchi Car Location – Yaoundé</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<!-- ══════════════════════════════════════════
+     NAVBAR
+══════════════════════════════════════════ -->
+<header class="navbar" id="navbar">
+  <div class="container nav-container">
+    <a href="#accueil" class="logo">
+      <div class="logo-icon"><i class="fa-solid fa-car-side"></i></div>
+      <span>Nvonchi<span class="accent">Car</span></span>
+    </a>
+
+    <nav class="nav-links" id="nav-links" role="navigation" aria-label="Navigation principale">
+      <a href="#accueil" class="nav-link">Accueil</a>
+      <a href="#features" class="nav-link">Avantages</a>
+      <a href="#how" class="nav-link">Comment ça marche</a>
+      <a href="#flotte" class="nav-link">Notre flotte</a>
+      <a href="#temoignages" class="nav-link">Avis</a>
+      <a href="#tarifs" class="nav-link">Tarifs</a>
+      <a href="#faq" class="nav-link">FAQ</a>
+      <a href="#contact" class="nav-link">Contact</a>
+      <a href="#contact" class="btn btn-glow">Réserver maintenant</a>
+    </nav>
+
+    <button class="burger" id="burger" aria-label="Menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ══════════════════════════════════════════
+     HERO
+══════════════════════════════════════════ -->
+<section class="hero section-hero" id="accueil">
+  <!-- Animated mesh background -->
+  <div class="hero-mesh" aria-hidden="true">
+    <div class="mesh-blob blob-1"></div>
+    <div class="mesh-blob blob-2"></div>
+    <div class="mesh-blob blob-3"></div>
+  </div>
+  <!-- Floating particles -->
+  <div class="particles" id="particles" aria-hidden="true"></div>
+
+  <div class="container hero-inner">
+    <div class="hero-text" data-reveal="left">
+      <span class="badge-pill"><i class="fa-solid fa-star"></i> #1 Location de voitures à Yaoundé</span>
+      <h1>Roulez en <span class="gradient-text">Classe</span> &amp; en <span class="gradient-text">Liberté</span></h1>
+      <p class="hero-sub-text">Des véhicules premium, des chauffeurs professionnels et une réservation ultra-rapide. Situés sur la <strong>nouvelle route Bastos</strong>, disponibles 7j/7 pour vous.</p>
+      <div class="hero-ctas">
+        <a href="#flotte" class="btn btn-primary btn-3d">
+          <i class="fa-solid fa-car-side"></i> Voir la flotte
+        </a>
+        <a href="#how" class="btn btn-ghost">
+          <i class="fa-solid fa-play-circle"></i> Comment ça marche
+        </a>
+      </div>
+      <div class="hero-trust">
+        <div class="trust-avatars">
+          <span class="av av1">JT</span>
+          <span class="av av2">AM</span>
+          <span class="av av3">PF</span>
+          <span class="av av4">+</span>
+        </div>
+        <p><strong>500+</strong> clients satisfaits ce mois-ci</p>
+      </div>
+    </div>
+
+    <div class="hero-visual" data-reveal="right">
+      <div class="floating-card card-3d" id="hero-card">
+        <div class="card-face card-front">
+          <div class="car-showcase">
+            <div class="car-glow" aria-hidden="true"></div>
+            <div class="car-img-hero" aria-label="Voiture de luxe Nvonchi Car">
+              <i class="fa-solid fa-car" aria-hidden="true"></i>
+            </div>
+          </div>
+          <div class="hero-card-info">
+            <span class="hci-label">Véhicule du jour</span>
+            <h3>Toyota Land Cruiser VX</h3>
+            <div class="hci-meta">
+              <span><i class="fa-solid fa-user-group"></i> 7 places</span>
+              <span><i class="fa-solid fa-snowflake"></i> Climatisé</span>
+              <span><i class="fa-solid fa-shield-halved"></i> Assuré</span>
+            </div>
+            <div class="hci-price">
+              <strong>65 000 FCFA</strong><small>/jour</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Floating stat chips -->
+      <div class="stat-chip chip-top" data-aos-delay="200">
+        <i class="fa-solid fa-car-side"></i>
+        <div><strong>50+</strong><small>Véhicules</small></div>
+      </div>
+      <div class="stat-chip chip-bottom" data-aos-delay="400">
+        <i class="fa-solid fa-star star-gold"></i>
+        <div><strong>4.9/5</strong><small>Note client</small></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="scroll-indicator" aria-hidden="true">
+    <a href="#features"><span></span></a>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     STATS RIBBON
+══════════════════════════════════════════ -->
+<section class="stats-ribbon" aria-label="Chiffres clés">
+  <div class="container stats-grid">
+    <div class="stat-item" data-reveal="up">
+      <div class="stat-icon"><i class="fa-solid fa-car-side"></i></div>
+      <div class="stat-body">
+        <span class="count" data-target="50">0</span><span class="stat-unit">+</span>
+        <p>Véhicules disponibles</p>
+      </div>
+    </div>
+    <div class="stat-item" data-reveal="up" style="--delay:.1s">
+      <div class="stat-icon"><i class="fa-solid fa-users"></i></div>
+      <div class="stat-body">
+        <span class="count" data-target="500">0</span><span class="stat-unit">+</span>
+        <p>Clients satisfaits</p>
+      </div>
+    </div>
+    <div class="stat-item" data-reveal="up" style="--delay:.2s">
+      <div class="stat-icon"><i class="fa-solid fa-calendar-check"></i></div>
+      <div class="stat-body">
+        <span class="count" data-target="5">0</span>
+        <p>Années d'expérience</p>
+      </div>
+    </div>
+    <div class="stat-item" data-reveal="up" style="--delay:.3s">
+      <div class="stat-icon"><i class="fa-solid fa-headset"></i></div>
+      <div class="stat-body">
+        <span class="count" data-target="24">0</span><span class="stat-unit">h/7j</span>
+        <p>Assistance disponible</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     FEATURES / AVANTAGES
+══════════════════════════════════════════ -->
+<section class="section features" id="features">
+  <div class="container">
+    <div class="section-header" data-reveal="up">
+      <span class="section-tag">Pourquoi nous choisir</span>
+      <h2>Des avantages pensés <span class="gradient-text">pour vous</span></h2>
+      <p>Nvonchi Car Location réunit tout ce dont vous avez besoin pour vivre une expérience de déplacement inoubliable.</p>
+    </div>
+
+    <div class="features-grid">
+      <div class="feature-card tilt-card" data-reveal="up" style="--delay:0s">
+        <div class="fc-icon"><i class="fa-solid fa-car-side"></i></div>
+        <h3>Flotte premium</h3>
+        <p>Des berlines aux SUV de luxe, nos véhicules sont entretenus, assurés et climatisés pour votre confort maximum.</p>
+        <div class="fc-shine"></div>
+      </div>
+      <div class="feature-card tilt-card" data-reveal="up" style="--delay:.1s">
+        <div class="fc-icon"><i class="fa-solid fa-bolt"></i></div>
+        <h3>Réservation en 2 minutes</h3>
+        <p>Appelez, WhatsApp ou remplissez le formulaire : votre véhicule est confirmé instantanément, sans attente.</p>
+        <div class="fc-shine"></div>
+      </div>
+      <div class="feature-card tilt-card" data-reveal="up" style="--delay:.2s">
+        <div class="fc-icon"><i class="fa-solid fa-shield-halved"></i></div>
+        <h3>100% sécurisé</h3>
+        <p>Chaque voiture est assurée tous risques. Vous voyagez l'esprit tranquille, nous gérons le reste.</p>
+        <div class="fc-shine"></div>
+      </div>
+      <div class="feature-card tilt-card" data-reveal="up" style="--delay:.3s">
+        <div class="fc-icon"><i class="fa-solid fa-truck-fast"></i></div>
+        <h3>Livraison à domicile</h3>
+        <p>Vous ne bougez pas : on vous amène le véhicule à votre adresse à Yaoundé, sans frais supplémentaires.</p>
+        <div class="fc-shine"></div>
+      </div>
+      <div class="feature-card tilt-card" data-reveal="up" style="--delay:.4s">
+        <div class="fc-icon"><i class="fa-solid fa-money-bill-wave"></i></div>
+        <h3>Tarifs transparents</h3>
+        <p>Pas de frais cachés, pas de mauvaises surprises. Vous payez exactement ce qui est affiché, en FCFA.</p>
+        <div class="fc-shine"></div>
+      </div>
+      <div class="feature-card tilt-card" data-reveal="up" style="--delay:.5s">
+        <div class="fc-icon"><i class="fa-solid fa-headset"></i></div>
+        <h3>Support 24h/24</h3>
+        <p>Une panne ? Un imprévu ? Notre équipe est joignable à toute heure pour vous venir en aide rapidement.</p>
+        <div class="fc-shine"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     HOW IT WORKS
+══════════════════════════════════════════ -->
+<section class="section how-it-works bg-dark-section" id="how">
+  <div class="container">
+    <div class="section-header light" data-reveal="up">
+      <span class="section-tag">Simple &amp; Rapide</span>
+      <h2>Comment ça <span class="gradient-text">fonctionne</span> ?</h2>
+      <p>Réservez votre véhicule en 3 étapes simples, sans paperasse compliquée.</p>
+    </div>
+
+    <div class="steps-wrapper">
+      <div class="steps-line" aria-hidden="true"></div>
+      <div class="steps-grid">
+        <div class="step-card" data-reveal="up" style="--delay:0s">
+          <div class="step-number">01</div>
+          <div class="step-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+          <h3>Choisissez votre véhicule</h3>
+          <p>Parcourez notre flotte et sélectionnez le véhicule qui correspond à vos besoins et à votre budget.</p>
+        </div>
+        <div class="step-card" data-reveal="up" style="--delay:.15s">
+          <div class="step-number">02</div>
+          <div class="step-icon"><i class="fa-solid fa-calendar-days"></i></div>
+          <h3>Réservez vos dates</h3>
+          <p>Indiquez vos dates de départ et retour, votre adresse de livraison et validez en quelques clics.</p>
+        </div>
+        <div class="step-card" data-reveal="up" style="--delay:.3s">
+          <div class="step-number">03</div>
+          <div class="step-icon"><i class="fa-solid fa-car-side"></i></div>
+          <h3>Prenez la route !</h3>
+          <p>Votre véhicule est livré à votre porte ou récupérez-le à notre agence. Il n'y a plus qu'à démarrer !</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     FLEET
+══════════════════════════════════════════ -->
+<section class="section fleet" id="flotte">
+  <div class="container">
+    <div class="section-header" data-reveal="up">
+      <span class="section-tag">Notre catalogue</span>
+      <h2>Une flotte pour <span class="gradient-text">chaque besoin</span></h2>
+      <p>Du véhicule économique au SUV de luxe, nous avons ce qu'il vous faut.</p>
+    </div>
+
+    <div class="fleet-tabs" role="tablist">
+      <button class="tab-btn active" data-category="all" role="tab" aria-selected="true">Tous</button>
+      <button class="tab-btn" data-category="berline" role="tab" aria-selected="false">Berlines</button>
+      <button class="tab-btn" data-category="suv" role="tab" aria-selected="false">SUV / 4x4</button>
+      <button class="tab-btn" data-category="utilitaire" role="tab" aria-selected="false">Utilitaires</button>
+    </div>
+
+    <div class="fleet-grid" id="fleet-grid" role="tabpanel">
+
+      <article class="fleet-card tilt-card" data-category="berline" data-reveal="up" style="--delay:0s">
+        <div class="fleet-img-wrap">
+          <div class="fleet-img fi-corolla" role="img" aria-label="Toyota Corolla"></div>
+          <span class="avail-badge"><i class="fa-solid fa-circle"></i> Disponible</span>
+        </div>
+        <div class="fleet-body">
+          <h3>Toyota Corolla</h3>
+          <ul class="fleet-specs">
+            <li><i class="fa-solid fa-gas-pump"></i> Essence</li>
+            <li><i class="fa-solid fa-gears"></i> Automatique</li>
+            <li><i class="fa-solid fa-user-group"></i> 5 places</li>
+            <li><i class="fa-solid fa-snowflake"></i> Climatisée</li>
+          </ul>
+          <div class="fleet-footer">
+            <div class="price-tag"><strong>25 000</strong> <small>FCFA/jour</small></div>
+            <a href="#contact" class="btn btn-primary btn-sm">Réserver</a>
+          </div>
+        </div>
+        <div class="fc-shine"></div>
+      </article>
+
+      <article class="fleet-card tilt-card" data-category="suv" data-reveal="up" style="--delay:.1s">
+        <div class="fleet-img-wrap">
+          <div class="fleet-img fi-lc" role="img" aria-label="Toyota Land Cruiser"></div>
+          <span class="avail-badge"><i class="fa-solid fa-circle"></i> Disponible</span>
+        </div>
+        <div class="fleet-body">
+          <h3>Toyota Land Cruiser</h3>
+          <ul class="fleet-specs">
+            <li><i class="fa-solid fa-gas-pump"></i> Diesel</li>
+            <li><i class="fa-solid fa-gears"></i> Automatique</li>
+            <li><i class="fa-solid fa-user-group"></i> 7 places</li>
+            <li><i class="fa-solid fa-snowflake"></i> Climatisée</li>
+          </ul>
+          <div class="fleet-footer">
+            <div class="price-tag"><strong>65 000</strong> <small>FCFA/jour</small></div>
+            <a href="#contact" class="btn btn-primary btn-sm">Réserver</a>
+          </div>
+        </div>
+        <div class="fc-shine"></div>
+      </article>
+
+      <article class="fleet-card tilt-card" data-category="berline" data-reveal="up" style="--delay:.2s">
+        <div class="fleet-img-wrap">
+          <div class="fleet-img fi-accord" role="img" aria-label="Honda Accord"></div>
+          <span class="avail-badge"><i class="fa-solid fa-circle"></i> Disponible</span>
+        </div>
+        <div class="fleet-body">
+          <h3>Honda Accord</h3>
+          <ul class="fleet-specs">
+            <li><i class="fa-solid fa-gas-pump"></i> Essence</li>
+            <li><i class="fa-solid fa-gears"></i> Automatique</li>
+            <li><i class="fa-solid fa-user-group"></i> 5 places</li>
+            <li><i class="fa-solid fa-snowflake"></i> Climatisée</li>
+          </ul>
+          <div class="fleet-footer">
+            <div class="price-tag"><strong>30 000</strong> <small>FCFA/jour</small></div>
+            <a href="#contact" class="btn btn-primary btn-sm">Réserver</a>
+          </div>
+        </div>
+        <div class="fc-shine"></div>
+      </article>
+
+      <article class="fleet-card tilt-card" data-category="suv" data-reveal="up" style="--delay:.3s">
+        <div class="fleet-img-wrap">
+          <div class="fleet-img fi-pajero" role="img" aria-label="Mitsubishi Pajero"></div>
+          <span class="avail-badge"><i class="fa-solid fa-circle"></i> Disponible</span>
+        </div>
+        <div class="fleet-body">
+          <h3>Mitsubishi Pajero</h3>
+          <ul class="fleet-specs">
+            <li><i class="fa-solid fa-gas-pump"></i> Diesel</li>
+            <li><i class="fa-solid fa-gears"></i> Manuelle</li>
+            <li><i class="fa-solid fa-user-group"></i> 5 places</li>
+            <li><i class="fa-solid fa-snowflake"></i> Climatisée</li>
+          </ul>
+          <div class="fleet-footer">
+            <div class="price-tag"><strong>50 000</strong> <small>FCFA/jour</small></div>
+            <a href="#contact" class="btn btn-primary btn-sm">Réserver</a>
+          </div>
+        </div>
+        <div class="fc-shine"></div>
+      </article>
+
+      <article class="fleet-card tilt-card" data-category="utilitaire" data-reveal="up" style="--delay:.4s">
+        <div class="fleet-img-wrap">
+          <div class="fleet-img fi-hiace" role="img" aria-label="Toyota HiAce"></div>
+          <span class="avail-badge"><i class="fa-solid fa-circle"></i> Disponible</span>
+        </div>
+        <div class="fleet-body">
+          <h3>Toyota HiAce</h3>
+          <ul class="fleet-specs">
+            <li><i class="fa-solid fa-gas-pump"></i> Diesel</li>
+            <li><i class="fa-solid fa-gears"></i> Manuelle</li>
+            <li><i class="fa-solid fa-user-group"></i> 12 places</li>
+            <li><i class="fa-solid fa-snowflake"></i> Climatisée</li>
+          </ul>
+          <div class="fleet-footer">
+            <div class="price-tag"><strong>70 000</strong> <small>FCFA/jour</small></div>
+            <a href="#contact" class="btn btn-primary btn-sm">Réserver</a>
+          </div>
+        </div>
+        <div class="fc-shine"></div>
+      </article>
+
+      <article class="fleet-card tilt-card" data-category="berline" data-reveal="up" style="--delay:.5s">
+        <div class="fleet-img-wrap">
+          <div class="fleet-img fi-merc" role="img" aria-label="Mercedes Classe E"></div>
+          <span class="avail-badge"><i class="fa-solid fa-circle"></i> Disponible</span>
+        </div>
+        <div class="fleet-body">
+          <h3>Mercedes Classe E</h3>
+          <ul class="fleet-specs">
+            <li><i class="fa-solid fa-gas-pump"></i> Essence</li>
+            <li><i class="fa-solid fa-gears"></i> Automatique</li>
+            <li><i class="fa-solid fa-user-group"></i> 5 places</li>
+            <li><i class="fa-solid fa-snowflake"></i> Climatisée</li>
+          </ul>
+          <div class="fleet-footer">
+            <div class="price-tag"><strong>80 000</strong> <small>FCFA/jour</small></div>
+            <a href="#contact" class="btn btn-primary btn-sm">Réserver</a>
+          </div>
+        </div>
+        <div class="fc-shine"></div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     TESTIMONIALS
+══════════════════════════════════════════ -->
+<section class="section testimonials bg-dark-section" id="temoignages">
+  <div class="container">
+    <div class="section-header light" data-reveal="up">
+      <span class="section-tag">Témoignages</span>
+      <h2>Ce que disent <span class="gradient-text">nos clients</span></h2>
+      <p>Des milliers de Yaoundéens nous font confiance. Voici quelques-uns de leurs retours.</p>
+    </div>
+
+    <div class="testimonial-carousel" id="testimonial-carousel">
+      <div class="tc-track" id="tc-track">
+
+        <div class="tc-slide">
+          <div class="tc-card">
+            <div class="tc-stars">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+            <p>« Service exceptionnel ! J'ai loué une Toyota Corolla pour 5 jours. Le véhicule était impeccable, la livraison ponctuelle. Je recommande sans hésiter à tous mes amis ! »</p>
+            <div class="tc-author">
+              <div class="tc-av">JT</div>
+              <div>
+                <strong>Jean-Baptiste Talla</strong>
+                <small>Client particulier • Bastos</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tc-slide">
+          <div class="tc-card">
+            <div class="tc-stars">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+            <p>« Notre entreprise utilise Nvonchi Car depuis 2 ans pour tous les déplacements de notre équipe. Toujours fiables, réactifs et professionnels. Un vrai partenaire ! »</p>
+            <div class="tc-author">
+              <div class="tc-av">AM</div>
+              <div>
+                <strong>Alice Mboula</strong>
+                <small>Directrice commerciale • Omnisport</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tc-slide">
+          <div class="tc-card">
+            <div class="tc-stars">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i>
+            </div>
+            <p>« Transfert aéroport parfait. Le chauffeur était là avant même mon atterrissage, propre, poli. La voiture était climatisée et confortable. Je reviendrai toujours. »</p>
+            <div class="tc-author">
+              <div class="tc-av">PF</div>
+              <div>
+                <strong>Paul Fotso</strong>
+                <small>Homme d'affaires • Douala/Yaoundé</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tc-slide">
+          <div class="tc-card">
+            <div class="tc-stars">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+            <p>« Excellent rapport qualité-prix ! Pour notre excursion à Kribi, nous avons eu un Land Cruiser propre et en parfait état. L'équipe a été aux petits soins. Merci ! »</p>
+            <div class="tc-author">
+              <div class="tc-av">SN</div>
+              <div>
+                <strong>Sophie Nguele</strong>
+                <small>Touriste • Kribi</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tc-slide">
+          <div class="tc-card">
+            <div class="tc-stars">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+            </div>
+            <p>« Réservation WhatsApp en 3 minutes, livraison en 30 min. Voilà ce qu'on appelle un service efficace ! Tarif honnête, pas de surprise à la fin. Je reviendrai. »</p>
+            <div class="tc-author">
+              <div class="tc-av">BK</div>
+              <div>
+                <strong>Brice Kamga</strong>
+                <small>Entrepreneur • Nlongkak</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="tc-controls">
+        <button class="tc-btn" id="tc-prev" aria-label="Précédent"><i class="fa-solid fa-chevron-left"></i></button>
+        <div class="tc-dots" id="tc-dots"></div>
+        <button class="tc-btn" id="tc-next" aria-label="Suivant"><i class="fa-solid fa-chevron-right"></i></button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     PRICING
+══════════════════════════════════════════ -->
+<section class="section pricing" id="tarifs">
+  <div class="container">
+    <div class="section-header" data-reveal="up">
+      <span class="section-tag">Nos formules</span>
+      <h2>Des tarifs <span class="gradient-text">adaptés à tous</span></h2>
+      <p>Choisissez la formule qui correspond à votre projet, sans engagement ni frais cachés.</p>
+    </div>
+
+    <div class="pricing-grid">
+
+      <div class="pricing-card" data-reveal="up" style="--delay:0s">
+        <div class="pc-header">
+          <div class="pc-icon"><i class="fa-solid fa-car-side"></i></div>
+          <h3>Essentiel</h3>
+          <p class="pc-sub">Idéal pour une journée ou un week-end</p>
+        </div>
+        <div class="pc-price">
+          <strong>25 000</strong><span>FCFA / jour</span>
+        </div>
+        <ul class="pc-features">
+          <li><i class="fa-solid fa-check"></i> Berline climatisée</li>
+          <li><i class="fa-solid fa-check"></i> Kilométrage illimité</li>
+          <li><i class="fa-solid fa-check"></i> Assurance tous risques</li>
+          <li><i class="fa-solid fa-check"></i> Assistance 24h/24</li>
+          <li class="muted"><i class="fa-solid fa-xmark"></i> Chauffeur inclus</li>
+          <li class="muted"><i class="fa-solid fa-xmark"></i> Livraison à domicile</li>
+        </ul>
+        <a href="#contact" class="btn btn-outline-dark">Choisir cette offre</a>
+      </div>
+
+      <div class="pricing-card featured" data-reveal="up" style="--delay:.15s">
+        <div class="pc-ribbon">Populaire</div>
+        <div class="pc-header">
+          <div class="pc-icon"><i class="fa-solid fa-star"></i></div>
+          <h3>Premium</h3>
+          <p class="pc-sub">La formule préférée de nos clients</p>
+        </div>
+        <div class="pc-price">
+          <strong>55 000</strong><span>FCFA / jour</span>
+        </div>
+        <ul class="pc-features">
+          <li><i class="fa-solid fa-check"></i> SUV ou berline premium</li>
+          <li><i class="fa-solid fa-check"></i> Kilométrage illimité</li>
+          <li><i class="fa-solid fa-check"></i> Assurance tous risques</li>
+          <li><i class="fa-solid fa-check"></i> Assistance 24h/24</li>
+          <li><i class="fa-solid fa-check"></i> Chauffeur inclus</li>
+          <li><i class="fa-solid fa-check"></i> Livraison à domicile</li>
+        </ul>
+        <a href="#contact" class="btn btn-primary btn-3d">Choisir cette offre</a>
+      </div>
+
+      <div class="pricing-card" data-reveal="up" style="--delay:.3s">
+        <div class="pc-header">
+          <div class="pc-icon"><i class="fa-solid fa-briefcase"></i></div>
+          <h3>Entreprise</h3>
+          <p class="pc-sub">Flotte dédiée pour les sociétés</p>
+        </div>
+        <div class="pc-price">
+          <strong>Sur devis</strong>
+        </div>
+        <ul class="pc-features">
+          <li><i class="fa-solid fa-check"></i> Flotte personnalisée</li>
+          <li><i class="fa-solid fa-check"></i> Kilométrage illimité</li>
+          <li><i class="fa-solid fa-check"></i> Assurance tous risques</li>
+          <li><i class="fa-solid fa-check"></i> Assistance 24h/24</li>
+          <li><i class="fa-solid fa-check"></i> Chauffeurs dédiés</li>
+          <li><i class="fa-solid fa-check"></i> Facturation mensuelle</li>
+        </ul>
+        <a href="#contact" class="btn btn-outline-dark">Demander un devis</a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     FAQ
+══════════════════════════════════════════ -->
+<section class="section faq bg-dark-section" id="faq">
+  <div class="container faq-container">
+    <div class="section-header light" data-reveal="left">
+      <span class="section-tag">Questions fréquentes</span>
+      <h2>Tout ce que vous <span class="gradient-text">voulez savoir</span></h2>
+    </div>
+
+    <div class="faq-list" data-reveal="right">
+
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">
+          Quels documents faut-il pour louer une voiture ?
+          <span class="faq-icon"><i class="fa-solid fa-chevron-down"></i></span>
+        </button>
+        <div class="faq-a">
+          <p>Il vous faut une pièce d'identité valide (CNI ou passeport) et un permis de conduire valide. Aucun dépôt de garantie n'est requis pour les clients habituels.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">
+          Puis-je annuler ou modifier ma réservation ?
+          <span class="faq-icon"><i class="fa-solid fa-chevron-down"></i></span>
+        </button>
+        <div class="faq-a">
+          <p>Oui, vous pouvez annuler ou modifier votre réservation sans frais jusqu'à 24h avant la prise en charge. Au-delà, des frais d'annulation peuvent s'appliquer.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">
+          La livraison à domicile est-elle incluse dans le tarif ?
+          <span class="faq-icon"><i class="fa-solid fa-chevron-down"></i></span>
+        </button>
+        <div class="faq-a">
+          <p>La livraison est incluse dans les formules Premium et Entreprise. Pour la formule Essentiel, elle est disponible avec un supplément selon votre quartier à Yaoundé.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">
+          Puis-je voyager en dehors de Yaoundé avec le véhicule ?
+          <span class="faq-icon"><i class="fa-solid fa-chevron-down"></i></span>
+        </button>
+        <div class="faq-a">
+          <p>Oui ! Vous pouvez circuler dans tout le Cameroun. Pour les voyages hors Yaoundé (Kribi, Bafoussam, Douala, etc.), informez-nous lors de la réservation pour adapter votre formule.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">
+          Comment effectuer le paiement ?
+          <span class="faq-icon"><i class="fa-solid fa-chevron-down"></i></span>
+        </button>
+        <div class="faq-a">
+          <p>Nous acceptons les paiements en espèces, par Mobile Money (MTN MoMo, Orange Money) et par virement bancaire pour les entreprises.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">
+          Que se passe-t-il en cas de panne ?
+          <span class="faq-icon"><i class="fa-solid fa-chevron-down"></i></span>
+        </button>
+        <div class="faq-a">
+          <p>Notre équipe d'assistance est disponible 24h/24. En cas de panne, appelez-nous immédiatement. Nous envoyons une équipe ou un véhicule de remplacement dans les meilleurs délais.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     CTA BANNER
+══════════════════════════════════════════ -->
+<section class="cta-banner" data-reveal="up">
+  <div class="cta-mesh" aria-hidden="true">
+    <div class="mesh-blob blob-1"></div>
+    <div class="mesh-blob blob-2"></div>
+  </div>
+  <div class="container cta-inner">
+    <div class="cta-text">
+      <h2>Prêt à prendre la route ?</h2>
+      <p>Réservez dès maintenant et bénéficiez de -10% sur votre première location !</p>
+    </div>
+    <div class="cta-actions">
+      <a href="#contact" class="btn btn-white btn-3d">
+        <i class="fa-solid fa-calendar-check"></i> Réserver maintenant
+      </a>
+      <a href="https://wa.me/237600000000" class="btn btn-whatsapp" target="_blank" rel="noopener">
+        <i class="fa-brands fa-whatsapp"></i> WhatsApp
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     CONTACT
+══════════════════════════════════════════ -->
+<section class="section contact" id="contact">
+  <div class="container">
+    <div class="section-header" data-reveal="up">
+      <span class="section-tag">Contactez-nous</span>
+      <h2>Parlons de <span class="gradient-text">votre projet</span></h2>
+      <p>Nous sommes disponibles 7j/7 pour répondre à toutes vos questions et confirmer votre réservation.</p>
+    </div>
+
+    <div class="contact-layout">
+
+      <div class="contact-info" data-reveal="left">
+        <div class="ci-item">
+          <div class="ci-icon"><i class="fa-solid fa-location-dot"></i></div>
+          <div>
+            <strong>Adresse</strong>
+            <span>Nouvelle route Bastos, Yaoundé, Cameroun</span>
+          </div>
+        </div>
+        <div class="ci-item">
+          <div class="ci-icon"><i class="fa-solid fa-phone"></i></div>
+          <div>
+            <strong>Téléphone</strong>
+            <span><a href="tel:+237600000000">+237 6 00 00 00 00</a></span>
+          </div>
+        </div>
+        <div class="ci-item">
+          <div class="ci-icon"><i class="fa-brands fa-whatsapp"></i></div>
+          <div>
+            <strong>WhatsApp</strong>
+            <span><a href="https://wa.me/237600000000">+237 6 00 00 00 00</a></span>
+          </div>
+        </div>
+        <div class="ci-item">
+          <div class="ci-icon"><i class="fa-solid fa-envelope"></i></div>
+          <div>
+            <strong>Email</strong>
+            <span><a href="mailto:contact@nvonchi-car.com">contact@nvonchi-car.com</a></span>
+          </div>
+        </div>
+        <div class="ci-item">
+          <div class="ci-icon"><i class="fa-solid fa-clock"></i></div>
+          <div>
+            <strong>Horaires</strong>
+            <span>Lundi – Dimanche : 07h00 – 21h00</span>
+          </div>
+        </div>
+
+        <div class="ci-socials">
+          <a href="#" class="social-btn" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" class="social-btn" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://wa.me/237600000000" class="social-btn" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+
+        <!-- Map -->
+        <div class="map-wrap">
+          <iframe
+            title="Localisation Nvonchi Car – Bastos Yaoundé"
+            src="https://www.openstreetmap.org/export/embed.html?bbox=11.505%2C3.868%2C11.525%2C3.882&amp;layer=mapnik&amp;marker=3.8754%2C11.5147"
+            loading="lazy"
+            allowfullscreen></iframe>
+          <div class="map-badge"><i class="fa-solid fa-location-dot"></i> Bastos, Yaoundé</div>
+        </div>
+      </div>
+
+      <div class="contact-form-wrap" data-reveal="right">
+        <form class="contact-form" id="contact-form" novalidate>
+          <h3><i class="fa-solid fa-paper-plane"></i> Envoyer une demande</h3>
+
+          <div class="form-row">
+            <div class="form-group floating">
+              <input type="text" id="f-name" name="name" placeholder=" " required autocomplete="name" />
+              <label for="f-name">Nom complet *</label>
+            </div>
+            <div class="form-group floating">
+              <input type="tel" id="f-phone" name="phone" placeholder=" " required autocomplete="tel" />
+              <label for="f-phone">Téléphone *</label>
+            </div>
+          </div>
+
+          <div class="form-group floating">
+            <input type="email" id="f-email" name="email" placeholder=" " autocomplete="email" />
+            <label for="f-email">Email (optionnel)</label>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group floating">
+              <input type="date" id="f-start" name="date-debut" placeholder=" " required />
+              <label for="f-start">Date de début *</label>
+            </div>
+            <div class="form-group floating">
+              <input type="date" id="f-end" name="date-fin" placeholder=" " required />
+              <label for="f-end">Date de fin *</label>
+            </div>
+          </div>
+
+          <div class="form-group floating">
+            <select id="f-vehicle" name="vehicle" required>
+              <option value="" disabled selected></option>
+              <option value="berline">Berline (Corolla, Accord…)</option>
+              <option value="suv">SUV / 4x4 (Land Cruiser, Pajero…)</option>
+              <option value="utilitaire">Utilitaire / Minibus (HiAce…)</option>
+              <option value="mercedes">Berline de luxe (Mercedes…)</option>
+              <option value="chauffeur">Avec chauffeur</option>
+            </select>
+            <label for="f-vehicle">Type de véhicule *</label>
+          </div>
+
+          <div class="form-group floating">
+            <textarea id="f-msg" name="message" placeholder=" " rows="4"></textarea>
+            <label for="f-msg">Message / précisions</label>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-3d btn-full">
+            <i class="fa-solid fa-paper-plane"></i> Envoyer ma demande
+          </button>
+          <p class="form-feedback" id="form-feedback" role="alert" aria-live="polite"></p>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════
+     FOOTER
+══════════════════════════════════════════ -->
+<footer class="footer">
+  <div class="footer-wave" aria-hidden="true">
+    <svg viewBox="0 0 1440 80" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0,40 C360,80 1080,0 1440,40 L1440,80 L0,80 Z" fill="var(--footer-bg)"/>
+    </svg>
+  </div>
+
+  <div class="container footer-grid">
+    <div class="fg-brand">
+      <a href="#accueil" class="logo">
+        <div class="logo-icon"><i class="fa-solid fa-car-side"></i></div>
+        <span>Nvonchi<span class="accent">Car</span></span>
+      </a>
+      <p>Votre partenaire de confiance pour la location de voitures à Yaoundé. Confort, fiabilité, professionnalisme.</p>
+      <div class="ci-socials">
+        <a href="#" class="social-btn" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#" class="social-btn" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://wa.me/237600000000" class="social-btn" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+      </div>
+    </div>
+
+    <div class="fg-links">
+      <h4>Navigation</h4>
+      <ul>
+        <li><a href="#accueil">Accueil</a></li>
+        <li><a href="#features">Avantages</a></li>
+        <li><a href="#how">Comment ça marche</a></li>
+        <li><a href="#flotte">Notre flotte</a></li>
+        <li><a href="#temoignages">Témoignages</a></li>
+        <li><a href="#tarifs">Tarifs</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="fg-links">
+      <h4>Services</h4>
+      <ul>
+        <li><a href="#flotte">Location courte durée</a></li>
+        <li><a href="#flotte">Location longue durée</a></li>
+        <li><a href="#flotte">Voiture avec chauffeur</a></li>
+        <li><a href="#flotte">Transfert aéroport</a></li>
+        <li><a href="#flotte">Location entreprise</a></li>
+        <li><a href="#flotte">Excursions &amp; Tourisme</a></li>
+      </ul>
+    </div>
+
+    <div class="fg-contact">
+      <h4>Contact</h4>
+      <ul>
+        <li><i class="fa-solid fa-location-dot"></i> Nouvelle route Bastos, Yaoundé</li>
+        <li><i class="fa-solid fa-phone"></i> <a href="tel:+237600000000">+237 6 00 00 00 00</a></li>
+        <li><i class="fa-solid fa-envelope"></i> <a href="mailto:contact@nvonchi-car.com">contact@nvonchi-car.com</a></li>
+        <li><i class="fa-solid fa-clock"></i> 07h00 – 21h00, 7j/7</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Nvonchi Car Location. Tous droits réservés.</p>
+      <p>Conçu avec <i class="fa-solid fa-heart icon-primary"></i> à Yaoundé, Cameroun</p>
+    </div>
+  </div>
+</footer>
+
+<!-- ══════════════════════════════════════════
+     FLOATING BUTTONS: THEME SWITCHER + TOP
+══════════════════════════════════════════ -->
+<div class="fab-cluster" aria-label="Actions rapides">
+
+  <!-- Back to top -->
+  <button class="fab fab-top" id="back-to-top" aria-label="Retour en haut">
+    <i class="fa-solid fa-chevron-up"></i>
+  </button>
+
+  <!-- Theme switcher toggle -->
+  <button class="fab fab-palette" id="palette-toggle" aria-label="Changer la couleur" aria-expanded="false">
+    <i class="fa-solid fa-palette"></i>
+  </button>
+
+  <div class="palette-panel" id="palette-panel" role="dialog" aria-label="Choisir une palette">
+    <p>Choisir la couleur</p>
+    <div class="palette-swatches">
+      <button class="swatch" data-theme="red"    style="background:#e63946" aria-label="Rouge"  title="Rouge"></button>
+      <button class="swatch" data-theme="blue"   style="background:#0066ff" aria-label="Bleu"   title="Bleu"></button>
+      <button class="swatch" data-theme="green"  style="background:#00b894" aria-label="Vert"   title="Vert"></button>
+      <button class="swatch" data-theme="purple" style="background:#7c3aed" aria-label="Violet" title="Violet"></button>
+      <button class="swatch" data-theme="orange" style="background:#f97316" aria-label="Orange" title="Orange"></button>
+      <button class="swatch" data-theme="pink"   style="background:#ec4899" aria-label="Rose"   title="Rose"></button>
+      <button class="swatch" data-theme="teal"   style="background:#0891b2" aria-label="Teal"   title="Teal"></button>
+      <button class="swatch" data-theme="gold"   style="background:#d97706" aria-label="Or"     title="Or"></button>
+    </div>
+  </div>
+
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
